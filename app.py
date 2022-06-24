@@ -12,7 +12,7 @@ app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 def index():
 	return render_template('home.html')
 
-@app.route('/about-crystal-widjaja')
+@app.route('/about-akhmad-suhariyono')
 def about():
 	return render_template('about-akhmad-suhariyono.html')
 
